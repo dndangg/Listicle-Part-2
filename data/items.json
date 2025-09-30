@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "vscode",
+      "title": "Visual Studio Code",
+      "subtitle": "Editor",
+      "image": "https://user-images.githubusercontent.com/35271042/118224532-3842c400-b438-11eb-923d-a5f66fa6785a.png",
+      "tags": ["Editor", "Open Source"],
+      "blurb": "Lightweight, extensible code editor.",
+      "description": "VS Code is a popular, extensible editor with strong TypeScript support, Git integration, and a massive extension ecosystem.",
+      "links": [{ "label": "Website", "url": "https://code.visualstudio.com/" }]
+    },
+    {
+      "id": "typescript",
+      "title": "TypeScript",
+      "subtitle": "Language",
+      "image": "https://www.curotec.com/wp-content/uploads/2025/06/TypeScript-vs.-JavaScript-5.jpg",
+      "tags": ["Types", "JavaScript"],
+      "blurb": "Type safety for JS at scale.",
+      "description": "TypeScript adds optional static typing to JavaScript, enabling safer refactors and better tooling.",
+      "links": [{ "label": "Website", "url": "https://www.typescriptlang.org/" }]
+    },
+    {
+      "id": "postgresql",
+      "title": "PostgreSQL",
+      "subtitle": "Database",
+      "image": "https://www.pgadmin.org/static/COMPILED/assets/img/screenshot.png",
+      "tags": ["SQL", "Open Source"],
+      "blurb": "Powerful open-source relational database.",
+      "description": "PostgreSQL is a robust SQL database with strong standards compliance and rich features.",
+      "links": [{ "label": "Website", "url": "https://www.postgresql.org/" }]
+    },
+    {
+      "id": "git",
+      "title": "Git",
+      "subtitle": "Version Control",
+      "image": "https://git-scm.com/images/branching-illustration@2x.png",
+      "tags": ["VCS", "Collaboration"],
+      "blurb": "Track changes and collaborate.",
+      "description": "Git enables distributed version control, branching strategies, and collaborative workflows.",
+      "links": [{ "label": "Website", "url": "https://git-scm.com/" }]
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "subtitle": "Hosting",
+      "image": "https://images.ctfassets.net/8aevphvgewt8/5fErhOtgvjrf97d7wOoARB/b262e06c615977f33046c468147aa114/screenshot-windows-dark.png?fm=webp",
+      "tags": ["Repo", "CI/CD"],
+      "blurb": "Host code, issues, and workflows.",
+      "description": "GitHub hosts repositories, issues, actions, and collaboration tools.",
+      "links": [{ "label": "Website", "url": "https://github.com/" }]
+    }
+  ]
+}

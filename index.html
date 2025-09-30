@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Listicle</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="public/css/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>My Tech Stack</h1>
+      <p class="subtitle">What I use when working!</p>
+    </header>
+
+    <main class="container">
+      <label for="search">Search</label>
+      <input id="search" type="search" placeholder="Filter by title, tag, or subtitle" />
+
+      <div id="grid" class="grid" aria-live="polite"></div>
+    </main>
+
+    <footer class="container">
+      <small>Styled with <a href="https://picocss.com/" target="_blank" rel="noreferrer">Pico.css</a></small>
+    </footer>
+
+    <script src="public/js/index.js" defer></script>
+  </body>
+</html>
