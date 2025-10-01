@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Item — Listicle</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css" />
+    <link rel="stylesheet" href="/public/css/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav style="margin-top:1rem">
+        <a href="/index.html" role="button" class="secondary">← Back to list</a>
+      </nav>
+
+      <article id="item-article">
+        <img id="item-image" class="card-image" alt="" style="display:none"/>
+        <h1 id="item-title" style="margin-bottom:0.25rem"></h1>
+        <p id="item-subtitle" style="margin-top:0;color:var(--muted-color)"></p>
+        <p id="item-tags"></p>
+        <p id="item-blurb"></p>
+
+        <h3>Links</h3>
+        <ul id="item-links"></ul>
+      </article>
+    </main>
+
+    <script src="/public/js/item.js"></script>
+  </body>
+</html>

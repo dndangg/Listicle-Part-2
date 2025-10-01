@@ -4,6 +4,29 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.js",
-    "serve": "python3 -m http.server 3000"
+    "serve": "python3 -m http.server 3000",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "description": "Submitted by: **Dylan Dang**",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dndangg/Listicle-Part-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dndangg/Listicle-Part-2/issues"
+  },
+  "homepage": "https://github.com/dndangg/Listicle-Part-2#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
